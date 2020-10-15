@@ -1,0 +1,345 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 0px;
+    color: orange;
+}
+
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+
+.kbd-navigation .square:focus {
+    background: #ddd;
+}
+
+.game-holder {
+    margin: 20px;
+    text-align: center;
+}
+
+.game {
+    display: inline-block;
+    flex-direction: row;
+    
+}
+
+.game-board {
+    float:left;
+    margin-right: 20px;
+    position: relative;
+    top: 40px;
+}
+
+.game-info {
+    float:left;
+    text-align: center;
+    margin-left: -20px;
+}
+
+.title {
+    text-align: center;
+    
+}
+
+.my-header {
+    display: inline-block;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 100px;
+    font: 35px arial, large;
+}
+
+.my-description {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:150px;
+       
+}
+
+.devs {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(209, 91, 0);
+    border-width: 2px;
+    border-radius: 4px;
+    background-color: black;
+    color: orange;
+    margin-right: 10px;
+    padding: 16px 16px 16px 16px;
+    font-size: 16px;
+    text-decoration:none;
+}
+
+.business {
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(209, 91, 0);
+    border-width: 2px;
+    border-radius: 4px;
+    padding: 16px 16px 16px 16px;
+    background-color: rgb(209, 91, 0);
+    color: white;
+    margin-left: 10px;
+    font-size: 16px;
+    text-decoration:none;
+}
+
+
+.link {
+    color:orange;
+}
+
+.linebreak {
+    background-color: rgb(209, 91, 0);
+    padding: 5px 20px 5px 50px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+.linebreak2 {
+    background-color: orangered;
+    padding:2px;
+    
+}
+
+
+.title2 {
+    font-size:40px;
+}
+
+.second{
+    padding: 50px;
+    text-align:center;
+    font: arial;
+    color:white;
+    
+}
+
+.partone {
+    background: rgb(239, 176, 15);
+    padding: 60px 0px 5px 0px;
+}
+
+.description2 {
+    font-size: 18px;
+}
+
+.topb {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    background: rgba(62,62,62, 1.0);
+    padding-bottom: 7px;
+}
+
+.logo {
+    margin-top:5px;
+    margin-right:20px;
+}
+
+.rightButOne {
+    margin-right: 10px;
+    border-radius: 30px;
+    border-color: rgb(209, 91, 0);
+    border: 1px;
+    background-color: rgb(209, 91, 0);
+    padding: 8px 15px 8px 15px;
+    color: white;
+}
+
+.rightButOne:hover {
+    margin-right: 10px;
+    border-radius: 30px;
+    border-color: darkorange;
+    border: 1px;
+    background-color: darkorange;
+    padding: 8px 15px 8px 15px;
+    color: white;
+}
+
+.rightBut {
+    margin-right: 10px;
+    border-radius: 30px;
+    border-color: black;
+    border:1px;
+    background-color: black;
+    padding: 8px 15px 8px 15px;
+    color: white;
+}
+
+.rightBut:hover {
+    margin-right: 10px;
+    border-radius: 30px;
+    border-color: rgb(54, 54, 54);
+    border: 1px;
+    background-color: rgb(54, 54, 54);
+    padding: 8px 15px 8px 15px;
+    color: white;
+}
+
+.leftButOne {
+    margin-right: 6px;
+    color: lightblue;
+    background-color: rgb(53, 70, 77);
+    padding: 8px 8px 8px 8px;
+    border-style: solid;    
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 2px;
+  
+}
+
+.leftButOne:hover {
+    margin-right: 6px;
+    color: white;
+    background-color: rgb(58, 75, 83);
+    padding: 8px 8px 8px 8px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 2px;
+}
+
+.leftButTwo {
+    margin-right: 4px;
+    color: white;
+    background-color: mediumblue;
+    padding: 8px 8px 8px 8px;
+    border-style:solid;
+    border-color: blue;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.leftButTwo:hover {
+    margin-right: 4px;
+    color: white;
+    background-color: blue;
+    padding: 8px 8px 8px 8px;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 3px;
+    border-width: 1px;
+}
+
+.search {
+    
+    width:700px;
+    padding: 8px;
+    margin-right:20px;
+    background-color:black;
+    color:lightgray;
+    font-size:14px;
+    border-color:lightgray;
+    border:1px;
+    border-style:solid;
+    border-radius: 3px;
+}
+
+.part2b {
+    margin-top:100px;
+    text-align:center;
+}
+
+.part21 {
+    float:left;
+    margin-top:75px;
+    margin-left:300px;
+}
+
+.part22 {
+    float:left;
+
+    margin-left: 100px;
+}
+
+.part23 {
+    float: left;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+.partTwo {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    padding-bottom: 400px;
+}
+
+.but1 {
+    text-decoration:none;
+    color:white;
+    border-style:solid;
+    border-width:12px;
+    border-color:mediumblue;
+    background:mediumblue;
+    margin-top: 20px;
+}
+
+.but2 {
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: 12px;
+    border-color: rgb(209, 91, 0);
+    background: rgb(209, 91, 0);
+}
+
+.but3 {
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: 12px;
+    border-color: rgb(3, 11, 66);
+    background: rgb(3, 11, 66);
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.signUp {
+    text-decoration:none;
+    color:darkorange;
+}
